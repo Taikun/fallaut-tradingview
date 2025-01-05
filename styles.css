@@ -1,0 +1,45 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace;
+    background-color: #040f04; /* Verde oscuro nuclear */
+    color: #33ff33;
+    text-shadow: 0 0 5px #33ff33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Encabezado */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #33ff33, 0 0 20px #33ff33;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    border: 2px solid #33ff33;
+    padding: 20px;
+    box-shadow: 0 0 30px #33ff33;
+    background: #0a0f0a;
+}
+
+/* Contenedor del widget */
+.tradingview-widget-container {
+    border: 2px solid #33ff33;
+    padding: 10px;
+    background: #062106;
+    box-shadow: 0 0 15px #33ff33;
+}
+
+/* Títulos dentro del widget */
+.tradingview-widget-container h2, h3, h4 {
+    color: #33ff33;
+    text-shadow: 0 0 5px #33ff33;
+}
